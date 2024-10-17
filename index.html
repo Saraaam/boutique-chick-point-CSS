@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique en Ligne - Accueil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   <link rel="stylesheet" href="main.js">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <button class="toggle-button" aria-label="Menu" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+               
+            </button>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="#produits">Produits</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#a-propos">À Propos</a></li>
+                </ul>
+            </nav>
+            <h1>Bienvenue dans notre Boutique</h1>
+            <p>Découvrez nos produits de qualité, conçus pour vous.</p>
+        </div>
+    </header>
+    
+    <main>
+        <section id="produits" class="container">
+            <h2>Nos Produits</h2>
+            <div class="produit">
+                <img src="RES/11894ee4d56e67ed887660b08ce04c90.jpg" alt="Produit 1">
+                <h3>Produit 1</h3>
+                <p>Brève description du produit 1.</p>
+                <button>Acheter maintenant</button>
+            </div>
+            <div class="produit">
+                <img src="RES/5acee9b79ebccb014f7f2587ca7dd42d.jpg" alt="Produit 2">
+                <h3>Produit 2</h3>
+                <p>Brève description du produit 2.</p>
+                <button>Acheter maintenant</button>
+            </div>
+            <div class="produit">
+                <img src="RES/5d5492d5c75d7bd378822a0ffdfdb966.jpg" alt="Produit 3">
+                <h3>Produit 3</h3>
+                <p>Brève description du produit 3.</p>
+                <button>Acheter maintenant</button>
+            </div>
+            <div class="produit">
+                <img src="RES/b23708623d44154e70caca883942519c.jpg" alt="Produit 4">
+                <h3>Produit 4</h3>
+                <p>Brève description du produit 4.</p>
+                <button>Acheter maintenant</button>
+            </div>
+            <div class="produit">
+                <img src="RES/b3b818904231c3855b811efbe0af752d.jpg" alt="Produit 5">
+                <h4>Produit 5</h4>
+                <p>Brève description du produit 5.</p>
+                <button>Acheter maintenant</button>
+            
+            </div>
+            <div class="produit">
+                <img src="RES/ce3f7d5159514b9bae792a0bee4350c9.jpg" alt="Produit 6">
+                <h5>Produit 6</h5>
+                <p>Brève description du produit 6.</p>
+                <button>Acheter maintenant</button>
+            
+            </div>
+            <div class="produit">
+                <img src="RES/0da3850242d338d2745bc5a7135f28d7.jpg" alt="Produit 7">
+                <h6>Produit 7</h6>
+                <p>Brève description du produit 7.</p>
+                <button>Acheter maintenant</button>
+            
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Boutique en Ligne. Tous droits réservés.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/sara.aamoum1/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="https://www.instagram.com/sara.aamoum/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById('nav-menu');
+            navMenu.classList.toggle('active'); // Toggle the active class
+            console.log("Toggle Menu Clicked");
+        }
+    </script>
+</body>
+</html>
